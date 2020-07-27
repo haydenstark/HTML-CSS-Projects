@@ -1,0 +1,19 @@
+table {
+	border: 6px double moccasin;
+}
+
+td:hover {
+	background-color: sandybrown;
+	color: saddlebrown;
+}
+
+tr, th {
+	background-color: darksalmon;
+	color: black;
+}
+
+tr, td {
+	background-color: papayawhip;
+	color: dimgrey;
+	text-align: center;
+}
