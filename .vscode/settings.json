@@ -1,5 +1,6 @@
 {
     "git.scanRepositories": [
         "/Users/haydenstark/GitHub Projects"
-    ]
+    ],
+    "editor.stablePeek": true
 }
