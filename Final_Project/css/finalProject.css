@@ -1,0 +1,163 @@
+/*NAV*/
+.navbar {
+    overflow: hidden;
+    background-color: rgba(58, 58, 58, 0.295);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.navbar a:hover {
+    background: rgb(100, 100, 100);
+    color: rgb(163, 215, 223);
+}
+
+.main {
+    margin-top: 30px;
+}
+
+
+
+/*IMAGE*/
+.container {
+    position: relative;
+    text-align: center;
+    color: rgba(56, 56, 56, 0.247);
+    font-family: sans-serif;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 355px;
+    height: 355px;
+}
+
+.img {
+    filter: drop-shadow(2px 3px 10px grey) opacity(80%);
+    border-radius: 60px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .75s ease-in-out;
+    background-color: rgba(72, 99, 77, 0.85);
+    border-radius: 60px;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-text {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*VIDEO*/
+.video-container {
+    position: relative;
+    text-align: center;
+    margin-top: 20%;
+    color: rgb(0,0,0);
+}
+
+
+
+
+/*TABLE*/
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    text-align: center;
+    width: 30%;
+    border-collapse: separate;
+}
+
+table, th, td {
+    border: 2px solid rgba(116, 116, 116, 0.363);
+}
+
+th {
+    background-color: rgba(30, 46, 134, 0.185);
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+/*COLUMNS*/
+.row {
+    display: flex;
+}
+
+.row p:hover {
+    color: rgb(223, 253, 255);
+    cursor: pointer;
+}
+
+.columnA, .columnB {
+    margin-top: 10%;
+    padding-top: 10px;
+    width: 25%;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.columnA {
+    background-color: rgba(75, 97, 45, 0.521);
+    margin-left: 25%;
+    border-radius: 20px 0 0 20px;
+}
+
+.columnB {
+    background-color: rgba(94, 32, 51, 0.527);
+    border-radius: 0 20px 20px 0;
+}
+
+
+
+/*FOOTER*/
+footer {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
