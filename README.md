@@ -1,2 +1,3 @@
 # HTML-CSS-Projects
-Stark's repository for HTML5 and CSS3 course
+These are the handful of assignments completed during my HTML and CSS courses with The Tech Academy
+
